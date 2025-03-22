@@ -6,6 +6,7 @@ const app = express();
 app.use(cors({origin:'*'}));
 const port = 3000;
 
+
 app.get('/klines', async (req, res) => {
   try {
     const binanceBaseUrl = 'https://api.binance.com/api/v3/klines';
