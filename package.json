@@ -4,7 +4,7 @@
   "description": "Servidor básico en Node.js con Express que realiza una petición a la API de Binance",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
