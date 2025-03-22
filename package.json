@@ -1,0 +1,16 @@
+{
+  "name": "node-express-server",
+  "version": "1.0.0",
+  "description": "Servidor básico en Node.js con Express que realiza una petición a la API de Binance",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
